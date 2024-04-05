@@ -4,7 +4,8 @@ platform :ios, '10.0'
 
 target 'YDPlayer_Example' do
   pod 'YDPlayer', :path => '../'
-
+  pod 'SnapKit'
+  pod 'Kingfisher'
   target 'YDPlayer_Tests' do
     inherit! :search_paths
 

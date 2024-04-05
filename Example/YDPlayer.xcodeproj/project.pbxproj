@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		159483D12AF107D800652728 /* YDPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159483D02AF107D800652728 /* YDPlayerView.swift */; };
+		159483D32AF2648200652728 /* 七里香.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 159483D22AF2648200652728 /* 七里香.mp3 */; };
+		159483D52AF3775E00652728 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 159483D42AF3775D00652728 /* test.mp3 */; };
 		1CFD0FA83EB72C2B0EC68A14 /* Pods_YDPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74660FC73EA248C34B2B8185 /* Pods_YDPlayer_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,9 +41,18 @@
 
 /* Begin PBXFileReference section */
 		05F5B78FED00B2BB0683E686 /* Pods-YDPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDPlayer_Tests/Pods-YDPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A607168EBAD704F03D1C989 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0A607168EBAD704F03D1C989 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		155456DC2AF0F53000428228 /* YDPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDPlayer.h; sourceTree = "<group>"; };
+		155456DD2AF0F53000428228 /* YDPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDPlayer.m; sourceTree = "<group>"; };
+		159483CA2AF0FA2500652728 /* YDBrightnessView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDBrightnessView.h; sourceTree = "<group>"; };
+		159483CB2AF0FA2500652728 /* YDBrightnessView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDBrightnessView.m; sourceTree = "<group>"; };
+		159483CC2AF1019300652728 /* PlayerWarpper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerWarpper.swift; sourceTree = "<group>"; };
+		159483CF2AF107D800652728 /* YDPlayer_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YDPlayer_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		159483D02AF107D800652728 /* YDPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDPlayerView.swift; sourceTree = "<group>"; };
+		159483D22AF2648200652728 /* 七里香.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "七里香.mp3"; sourceTree = "<group>"; };
+		159483D42AF3775D00652728 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 		2118C6B697BAA8CCB1B7C61A /* Pods-YDPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDPlayer_Example/Pods-YDPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36BE64687B7B1C6B2F841958 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36BE64687B7B1C6B2F841958 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +76,7 @@
 		74660FC73EA248C34B2B8185 /* Pods_YDPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A15894C6C01698A52B768A7D /* Pods-YDPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDPlayer_Tests/Pods-YDPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF8FBA71B6499D71A3EC0853 /* YDPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDPlayer.podspec; path = ../YDPlayer.podspec; sourceTree = "<group>"; };
+		AF8FBA71B6499D71A3EC0853 /* YDPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDPlayer.podspec; path = ../YDPlayer.podspec; sourceTree = "<group>"; };
 		E25B2A5259B95C2CDD7B37C4 /* Pods_YDPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D29F2318B56B4367B918D9 /* Pods-YDPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-YDPlayer_Example/Pods-YDPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,9 +107,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155456D62AF0F4C800428228 /* YDPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				155456D72AF0F4C800428228 /* Classes */,
+				155456DA2AF0F4C800428228 /* Assets */,
+			);
+			name = YDPlayer;
+			path = ../YDPlayer;
+			sourceTree = "<group>";
+		};
+		155456D72AF0F4C800428228 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				155456DC2AF0F53000428228 /* YDPlayer.h */,
+				155456DD2AF0F53000428228 /* YDPlayer.m */,
+				159483CA2AF0FA2500652728 /* YDBrightnessView.h */,
+				159483CB2AF0FA2500652728 /* YDBrightnessView.m */,
+				159483CC2AF1019300652728 /* PlayerWarpper.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		155456DA2AF0F4C800428228 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		159483CE2AF107C800652728 /* YDPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				159483D02AF107D800652728 /* YDPlayerView.swift */,
+				159483CF2AF107D800652728 /* YDPlayer_Example-Bridging-Header.h */,
+			);
+			name = YDPlayer;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				155456D62AF0F4C800428228 /* YDPlayer */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YDPlayer */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -132,9 +183,12 @@
 		6003F593195388D20070C39A /* Example for YDPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				159483CE2AF107C800652728 /* YDPlayer */,
 				6003F59C195388D20070C39A /* YDAppDelegate.h */,
 				6003F59D195388D20070C39A /* YDAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				159483D22AF2648200652728 /* 七里香.mp3 */,
+				159483D42AF3775D00652728 /* test.mp3 */,
 				6003F5A5195388D20070C39A /* YDViewController.h */,
 				6003F5A6195388D20070C39A /* YDViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -193,7 +247,6 @@
 				A15894C6C01698A52B768A7D /* Pods-YDPlayer_Tests.debug.xcconfig */,
 				05F5B78FED00B2BB0683E686 /* Pods-YDPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,7 +302,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wangyuandong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 83G2F8FWQZ;
+						LastSwiftMigration = 1500;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = C3V5PUXTCL;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -259,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,7 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159483D32AF2648200652728 /* 七里香.mp3 in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				159483D52AF3775E00652728 /* test.mp3 in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -343,11 +404,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YDPlayer_Example/Pods-YDPlayer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YDPlayer/YDPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YDUtilKit/YDUtilKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YDUtilKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,6 +450,7 @@
 			files = (
 				6003F59E195388D20070C39A /* YDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YDViewController.m in Sources */,
+				159483D12AF107D800652728 /* YDPlayerView.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -501,7 +567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -513,12 +579,17 @@
 			baseConfigurationReference = 2118C6B697BAA8CCB1B7C61A /* Pods-YDPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 83G2F8FWQZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDPlayer/YDPlayer-Prefix.pch";
 				INFOPLIST_FILE = "YDPlayer/YDPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YDPlayer/YDPlayer_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -529,12 +600,16 @@
 			baseConfigurationReference = F6D29F2318B56B4367B918D9 /* Pods-YDPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 83G2F8FWQZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDPlayer/YDPlayer-Prefix.pch";
 				INFOPLIST_FILE = "YDPlayer/YDPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YDPlayer/YDPlayer_Example-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -544,7 +619,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A15894C6C01698A52B768A7D /* Pods-YDPlayer_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -569,7 +646,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05F5B78FED00B2BB0683E686 /* Pods-YDPlayer_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C3V5PUXTCL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

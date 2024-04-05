@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/wangyuandong/YDPlayer'
+  s.homepage         = 'https://github.com/chong2vv/YDPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wangyuandong' => 'chong2vv@gmail.com' }
-  s.source           = { :git => 'https://github.com/wangyuandong/YDPlayer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chong2vv/YDPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
+  s.platform     = :ios, "11.0"
 
   s.source_files = 'YDPlayer/Classes/**/*'
-  
+  s.static_framework = true
+  s.requires_arc = true
   # s.resource_bundles = {
   #   'YDPlayer' => ['YDPlayer/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MediaPlayer'
+  s.dependency 'YDUtilKit', '~> 0.1.0'
 end

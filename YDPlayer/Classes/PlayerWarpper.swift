@@ -150,7 +150,7 @@ public class PlayerWarpper {
     
     public func seek(time: TimeInterval, playAfter: Bool) {
         if let player = player {
-            player.seek(toTime: time, tolerance: kCMTimeZero) { [weak player](finished) in
+            player.seek(toTime: time, tolerance: CMTime.zero) { [weak player](finished) in
                 guard let player = player else { return }
                 if playAfter {
                     player.play()
@@ -165,3 +165,6 @@ public class PlayerWarpper {
     
 }
 
+extension CMTime {
+    static var zero: CMTime { return kCMTimeZero }
+}

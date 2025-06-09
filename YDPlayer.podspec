@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDPlayer'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'A short description of YDPlayer.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'wangyuandong' => 'chong2vv@gmail.com' }
   s.source           = { :git => 'https://github.com/chong2vv/YDPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "10.0"
 
   s.source_files = 'YDPlayer/Classes/**/*'
   s.static_framework = true
